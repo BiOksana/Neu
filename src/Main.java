@@ -21,16 +21,8 @@ public class Main {
         System.out.println("Count of number \"5\" = " + countOfNumberFive(array));
         sortArray(array);
         System.out.println("Sorted array: " + Arrays.toString(array));
+        scanner.close();
     }
-
-//        System.out.print("Enter numbers of array: ");
-//        String str = scanner.nextLine();
-//        String[] arrayOfString = str.split(" ");
-//        System.out.println(Arrays.toString(arrayOfString));
-//        scanner.close();
-//        for (int i = 0; i < array.length; i++) {
-//            array[i] = Integer.parseInt(arrayOfString[i]);
-//        }
 
     public static void sortArray(int[] arr) {
         for (int i = 0; i < arr.length; i++) {
